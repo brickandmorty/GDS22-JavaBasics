@@ -36,5 +36,20 @@ public class ArithmetischeOperationenLV {
         result = a % b;
         System.out.println("Result Modulo " + result);
 
+        // a++ (bedeutet a = a+1)
+        System.out.println("a++ ");
+        // ich erwarte mir 3
+        System.out.println(a++);
+        System.out.println("a = " + a); // ich erwarte mir 4
+
+        // b++
+        System.out.println("++b");
+        System.out.println(++b); //ich erwarte mir 3
+        System.out.println("b = " + b); // ich erwarte mir 3
+
+        // entweder wir postinkrement ausgeführt  oder bzw. bevor es ausgelesen wird um +1 erhöht
+
     }
 }
+
+// Workaround über die Changelisten
